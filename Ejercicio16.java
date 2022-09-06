@@ -26,23 +26,23 @@ public class Ejercicio16 {
         System.out.println("Que numero desea encontrar en el vector: ");
         int buscar = leer.nextInt();
         int[] vector = new int[n];
-        llenarvector(n, vector, n);
-        
+        llenarvector(n, vector);
+        buscarnumero(vector, buscar);
+                
         
     }
-     public static void llenarvector(int n, int[] vector, int buscar) {
+     public static void llenarvector(int n, int[] vector ) {
 
         for (int i = 0; i < vector.length; i++) {
             vector[i] = (int)(Math.random() * 10+1);
-        }
-     
-        for (int i = 0; i < vector.length; i++) {
-            if (buscar == vector[i]);
-            System.out.println("Su numero se encuentra en el espacio:  " + vector[i] + "  del vector");
-        }
-       
+        }  
 
     }
-
+     public static void buscarnumero (int [] vector, int buscar){
+         for (int i = 0; i < vector.length; i++) {
+            if (buscar == vector[i]);
+            System.out.println("Su numero se encuentra en el espacio:  [" + vector[i] + "]  del vector");
+        }
+     }
+             
 }
-
