@@ -26,8 +26,7 @@ public class Ejercicio12 {
             } else {
                 contIncorrectos++;
             }
-            System.out.println("Los correctos son: " + contCorrectos);
-            System.out.println("Los Incorrectos son: " + contIncorrectos);
+         
         } while (!frase.equals("&&&&&"));
         System.out.println("La cantidad de frases correctas es de: " + contCorrectos);
         System.out.println("La cantidad de frases incorrectas es de: " + contIncorrectos);
