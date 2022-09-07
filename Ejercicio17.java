@@ -44,19 +44,19 @@ buscardig(vector);
             switch (l) {
                 case 1:
                     c1++;
-                    break;
+                    continue;
                 case 2:
                     c2++;
-                    break;
+                    continue;
                 case 3:
                     c3++;
-                    break;
+                    continue;
                 case 4:
                     c4++;
-                    break;
+                    continue;
                 case 5:
                     c5++;
-                    break;
+                    continue;
 
             }
         }
