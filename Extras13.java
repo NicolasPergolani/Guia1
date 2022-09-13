@@ -26,7 +26,6 @@ public class Extras13 {
         Scanner leer=new Scanner(System.in);
         System.out.println("Ingrese el valor de n");
         int n=leer.nextInt();
-        String num1="";
         for (int i = 0; i < n; i++) {
             for (int j =0; j <= i; j++) {
              System.out.print(j+1);
